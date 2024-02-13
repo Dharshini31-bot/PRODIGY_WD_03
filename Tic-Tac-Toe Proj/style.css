@@ -1,0 +1,114 @@
+body{
+    font-family: 'Protest Revolution', sans-serif;
+    background: linear-gradient(to right,rgb(240, 115, 138),rgb(245, 143, 160))
+}
+.header{
+    display: grid;
+    text-align: center;
+    place-items: center;
+}
+.title{
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    box-shadow: rgba(90, 70, 80, 0.847)0px 19px 30px, rgba(96, 75, 79, 0.847)0px 15px 20px;
+}
+
+.cell{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to left,rgb(255, 197, 90),pink,plum,aquamarine);
+    border:2px solid rgb(255, 255, 255);
+    box-shadow: rgb(93, 78, 93) 0px 19px 38px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.cell:hover{
+    background: rgb(240, 189, 205);
+}
+.restart{
+    background-color: rgb(253, 93, 120);
+    border-radius: 20px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.restart:hover{
+    background-color: white;
+    color: rgb(254, 91, 121);
+    border-radius: 20px;
+}
+
+.game-status{
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.starter{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgb(234, 126, 144);
+
+}
+.startbtn{
+    margin-top: 0px;
+    font-size: 30px;
+    background: rgb(254, 91, 121);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.starter h1{
+    color: rgb(255, 95, 122);
+    background-color: rgb(255, 239, 239);
+    padding:20px;
+    margin: 0px;
+    top: 0px;
+    border-bottom: 10px solid rgb(255, 102, 127);
+    border-top: 10px solid rgb(255, 102, 127);
+}
+.starter h2{
+    color: white;
+    padding-top: 60px;
+}
+
+.startbtn:hover{
+    background-color: white;
+    color: rgb(254, 91, 121);
+}
+.starter h3{
+    color: rgb(255, 95, 122);
+    font-size: 40px;
+    background-color: rgb(255, 239, 239);
+    padding:20px;
+    margin: 0px;
+    top: 0px;
+    border-bottom: 10px solid rgb(255, 102, 127);
+    border-top: 10px solid rgb(255, 102, 127);
+    margin-top: 160px;
+}
